@@ -9,8 +9,6 @@ COPY package*.json ./
 
 #Install the dependencies
 RUN npm install
-RUN touch .env.local
-RUN echo
 
 #Copy the rest of the aplication
 COPY . .  
